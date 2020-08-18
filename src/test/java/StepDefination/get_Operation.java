@@ -34,7 +34,6 @@ public class get_Operation {
 		Response a4 = a3.then().extract().response();
 		System.out.println(a4.asString());
 		System.out.println(a4.getStatusLine());
-		System.out.println(a4.getStatusLine());
 		Assert.assertEquals(a, a4.getStatusCode());
 
 	}
